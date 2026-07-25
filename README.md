@@ -21,3 +21,10 @@ AI-powered Research Assistant built with LangChain and Gemini. The project focus
 - Embeddings
 
 - RAG Pipeline
+
+## Week 2 Progress
+
+- Implemented Google Gemini Embeddings
+- Created ChromaDB Vector Database
+- Stored document embeddings
+- Tested similarity search successfully
