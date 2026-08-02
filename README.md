@@ -28,3 +28,10 @@ AI-powered Research Assistant built with LangChain and Gemini. The project focus
 - Created ChromaDB Vector Database
 - Stored document embeddings
 - Tested similarity search successfully
+
+## Week 3 Progress
+
+- Created document retriever using ChromaDB.
+- Implemented similarity search.
+- Successfully retrieved relevant document chunks from the vector database.
+- Tested retrieval with multiple user queries.
