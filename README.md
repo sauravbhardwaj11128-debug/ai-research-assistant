@@ -35,3 +35,11 @@ AI-powered Research Assistant built with LangChain and Gemini. The project focus
 - Implemented similarity search.
 - Successfully retrieved relevant document chunks from the vector database.
 - Tested retrieval with multiple user queries.
+
+## Week 4 Progress
+
+- Integrated Gemini LLM with LangChain.
+- Created a document processing prompt.
+- Connected the ChromaDB retriever with the Gemini LLM.
+- Implemented the initial RAG pipeline.
+- Tested question answering using local PDF documents.
