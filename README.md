@@ -43,3 +43,7 @@ AI-powered Research Assistant built with LangChain and Gemini. The project focus
 - Connected the ChromaDB retriever with the Gemini LLM.
 - Implemented the initial RAG pipeline.
 - Tested question answering using local PDF documents.
+
+## Week 5 Progress
+
+The team implemented the initial RAG pipeline using LangChain by connecting the ChromaDB retriever with the Gemini LLM. A prompt-based workflow was created to generate answers from retrieved document content, and the pipeline was tested with multiple queries from the local PDF document.
