@@ -1,49 +1,127 @@
-# ai-research-assistant
-AI-powered Research Assistant built with LangChain and Gemini. The project focuses on Retrieval-Augmented Generation (RAG) using local documents, with a modular backend architecture and a single-agent workflow.
-# AI Research Assistant
+# 📚 AI Research Assistant
 
-## Week 1 Progress
+An AI-powered Research Assistant that allows users to upload PDF documents and ask questions based on their content. The application uses LangChain, Gemini, ChromaDB, and Retrieval-Augmented Generation (RAG) to retrieve relevant information and generate contextual answers.
 
-✅ Repository Created
+## 🚀 Features
 
-✅ LangChain Installed
+- Upload PDF documents
+- Extract and preprocess document content
+- Split documents into smaller chunks
+- Generate Gemini embeddings
+- Store embeddings using ChromaDB
+- Retrieve relevant document sections using similarity search
+- Generate answers using Gemini LLM
+- Display retrieved document sources
+- Interactive Streamlit interface
+- Maintain previous questions and answers during the session
 
-✅ Backend Environment Setup
+## 🛠️ Tech Stack
 
-✅ PDF Loader Implemented
-
-✅ Document Chunking Implemented
-
-## Next Week
-
+- Python
+- LangChain
+- Google Gemini
 - ChromaDB
+- PyPDF
+- Streamlit
 
-- Embeddings
+## 🔄 Project Workflow
 
-- RAG Pipeline
+PDF Upload
+↓
+PDF Document Loading
+↓
+Text Splitting
+↓
+Gemini Embeddings
+↓
+ChromaDB Vector Database
+↓
+Similarity Search / Retriever
+↓
+Relevant Context
+↓
+Gemini LLM
+↓
+Final Answer
 
-## Week 2 Progress
+## 📂 Project Structure
 
-- Implemented Google Gemini Embeddings
-- Created ChromaDB Vector Database
-- Stored document embeddings
-- Tested similarity search successfully
+ai-research-assistant/
 
-## Week 3 Progress
+├── app.py  
+├── requirements.txt  
+├── README.md  
+└── notebooks/  
+&nbsp;&nbsp;&nbsp;&nbsp;└── AI_Research_Assistant.ipynb
 
-- Created document retriever using ChromaDB.
-- Implemented similarity search.
-- Successfully retrieved relevant document chunks from the vector database.
-- Tested retrieval with multiple user queries.
+## 📈 Development Progress
 
-## Week 4 Progress
+### Week 1
+- Project repository initialized
+- LangChain environment configured
+- PDF document loading implemented
+- Document preprocessing and text chunking completed
 
-- Integrated Gemini LLM with LangChain.
-- Created a document processing prompt.
-- Connected the ChromaDB retriever with the Gemini LLM.
-- Implemented the initial RAG pipeline.
-- Tested question answering using local PDF documents.
+### Week 2
+- Gemini embeddings integrated
+- ChromaDB vector database created
+- Document embeddings stored
+- Similarity search implemented
 
-## Week 5 Progress
+### Week 3
+- Document retriever implemented
+- Retrieved relevant document chunks
+- Tested similarity search with different queries
 
-The team implemented the initial RAG pipeline using LangChain by connecting the ChromaDB retriever with the Gemini LLM. A prompt-based workflow was created to generate answers from retrieved document content, and the pipeline was tested with multiple queries from the local PDF document.
+### Week 4
+- Gemini LLM integrated
+- RAG prompt created
+- Initial RAG pipeline implemented
+- Tested question answering using local PDF documents
+
+### Current Development
+- Streamlit application developed
+- PDF upload functionality added
+- RAG pipeline connected with the user interface
+- Source retrieval and chat history implemented
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+
+### 2. Install dependencies
+
+pip install -r requirements.txt
+
+### 3. Run the Streamlit application
+
+streamlit run app.py
+
+### 4. Enter Gemini API Key
+
+Enter your Gemini API key in the application sidebar.
+
+### 5. Upload a PDF
+
+Upload a PDF document and click **Process Document**.
+
+### 6. Ask Questions
+
+Enter questions related to the uploaded document and click **Ask Question**.
+
+## 🔮 Future Improvements
+
+- Single AI Agent integration
+- Better conversation memory
+- Improved document retrieval
+- Multiple document support
+- Advanced response evaluation
+- Authentication and user management
+- Cloud deployment and performance optimization
+
+## 👨‍💻 Project Status
+
+The project is currently under active development. The core document processing, vector search, RAG pipeline, and Streamlit interface have been implemented. Further improvements and agent-based capabilities will be added in upcoming development stages.
+
